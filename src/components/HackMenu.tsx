@@ -38,6 +38,8 @@ const HackMenu: FunctionalComponent<HackMenuProps> = ({ hacks = [] }) => {
                     </IconContext.Provider>
                 </div>
                 <p className="text-base font-bold text-center mt-3">Join our discord for hack updates &#38; support: <a href="https://discord.gg/D2jUxNr39K" target="_blank" rel="noreferrer" className="underline decoration-blue-600">discord.gg/YRtwBJrmGa</a></p>
+                <p className="text-base text-center mt-3">Disclaimer:
+We want to clarify that we are not affiliated with &quot;Prodigy&quot; or its trademarks. Any references made to &quot;Prodigy&quot; or its trademarks are purely for explanatory purposes. Our views are independent and do not represent those of &quot;Prodigy&quot; or its affiliates. Any mentioned trademarks belong to their respective owners, and we do not claim ownership or endorsement of them.</p>
                 {/* <div class="flex justify-center mt-3">
                     <a href="https://www.usechatgpt.ai/install?ref=prodigyhacking" target="_blank" rel="noreferrer">
                         <img src="https://raw.githubusercontent.com/ProdigyAPI/ProdigyXHack/master/docs/images/usechatgpt.png" alt="UseChatGPT.ai" class="w-72 h-28 rounded-md" />

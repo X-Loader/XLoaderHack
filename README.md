@@ -1,7 +1,8 @@
 <h1 align="center">Prodigy X</h1>
 <br />
-<p align="center">
-    <img alt="Prodigy X Logo" src="https://media.discordapp.net/attachments/963933103632564335/980916202840920104/unknown.png">
+<p>
+Disclaimer:
+We want to clarify that we are not affiliated with "Prodigy" or its trademarks. Any references made to "Prodigy" or its trademarks are purely for explanatory purposes. Our views are independent and do not represent those of "Prodigy" or its affiliates. Any mentioned trademarks belong to their respective owners, and we do not claim ownership or endorsement of them.
 </p>
 <br />
 <p align="center">
