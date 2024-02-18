@@ -20,7 +20,7 @@ const HackMenu: FunctionalComponent<HackMenuProps> = ({ hacks = [] }) => {
         <Fragment>
             <MenuToggler toggled={visible} onToggle={() => setVisible(!visible)} />
             <div className={`p-7 absolute w-full left-0 transition-all ease-in-out duration-500 h-[40vh] overflow-y-scroll bg-gray-200 forest:bg-green-700 forest:bg-opacity-80 shiverchill:bg-teal-500 shiverchill:bg-opacity-80 bonfire-spire:bg-rose-600 bonfire-spire:bg-opacity-[.85] bg-opacity-90 ${visible ? "top-0" : "-top-[40vh]"}`}>
-                <h1 className="text-5xl font-bold text-center">Prodigy X Cheat Menu</h1>
+                <h1 className="text-5xl font-bold text-center">X Loader Cheat Menu</h1>
                 <div className="flex space-x-5 text-center items-center justify-center mt-3">
                     <IconContext.Provider value={{ size: "25px" }}>
                         <a href="https://prodigyapi.github.io/ProdigyX/" target="_blank" rel="noreferrer">
@@ -32,7 +32,7 @@ const HackMenu: FunctionalComponent<HackMenuProps> = ({ hacks = [] }) => {
                         <a href="https://www.youtube.com/channel/UCioIJQ4niel1ziD7YA5b3cA" target="_blank" rel="noreferrer">
                             <BsYoutube color="#FF0000" />
                         </a>
-                        <a href="https://github.com/ProdigyAPI/ProdigyX" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/X-Loader/XLoaderHack" target="_blank" rel="noreferrer">
                             <BsGithub color="#000000" />
                         </a>
                     </IconContext.Provider>
