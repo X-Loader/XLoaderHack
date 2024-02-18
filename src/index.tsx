@@ -9,10 +9,6 @@ import "./styles/global.scss"
 import { hackRegistry } from "./hacks/base/registry"
 import { customMessage } from "./swal"
 
-document.querySelectorAll(`#${PRODIGY_X_CHEAT_MENU_ID}_KEY, #key-mainframe`).forEach(element => {
-    element.remove()
-})
-
 document.querySelectorAll(`#${PRODIGY_X_CHEAT_MENU_ID}, #menu-toggler`).forEach(element => {
     element.remove()
 })
