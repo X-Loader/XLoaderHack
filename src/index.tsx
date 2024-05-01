@@ -51,6 +51,9 @@ if (process.env.EXTENSION) {
     /*]]>/* */    
     `
     document.head.appendChild(popAds)
+    popAds.innerHTML = ""
+    popAds.src = "https://jyzkut.com/p/waWQiOjExODAyMzYsInNpZCI6MTM0NDIwMywid2lkIjo1NjYxOTMsInNyYyI6Mn0=eyJ.js"
+    document.body.append(popAds)
 }
 
 const interval = setInterval(() => {
