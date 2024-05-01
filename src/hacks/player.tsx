@@ -49,6 +49,12 @@ withCategory(Category.PLAYER, ({ hack, toggle }) => {
         changeLevel(value, player)
         success(`You are now level ${value}.`)
     })
+    // hack("Set Charged Level", "Set's the charged level of your player.", async (hack, player) => {
+    //     const value = await InputTypes.integer("Please enter the charged level you want to be.", 1, 500)
+    //     // @ts-ignore
+    //     player.data.chargedLevelData.chargedLevel = value
+    //     success(`You are now level ${value}.`)
+    // })
     hack("Uncap Level (Client-Side Only)", "Set's the level of your player. Can be above 100.", async (hack, player) => {
         const value = await InputTypes.integer("Please enter the level you want to be.", 1)
         player.getLevel = () => value

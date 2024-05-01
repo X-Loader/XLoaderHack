@@ -28,20 +28,20 @@ document.getElementById("game-wrapper")?.prepend(menuElement)
 // chatElement.id = `${PRODIGY_X_CHEAT_MENU_ID}-chat`
 // document.getElementById("game-wrapper")?.prepend(chatElement)
 
-const googleAnalytics = document.createElement("script")
-googleAnalytics.src = "https://www.googletagmanager.com/gtag/js?id=G-SENY5K9EWR"
-document.head.appendChild(googleAnalytics)
+// const googleAnalytics = document.createElement("script")
+// googleAnalytics.src = "https://www.googletagmanager.com/gtag/js?id=G-SENY5K9EWR"
+// document.head.appendChild(googleAnalytics)
 
-const googleAnalyticsScript = document.createElement("script")
-googleAnalyticsScript.innerHTML = `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+// const googleAnalyticsScript = document.createElement("script")
+// googleAnalyticsScript.innerHTML = `window.dataLayer = window.dataLayer || [];
+// function gtag(){dataLayer.push(arguments);}
+// gtag('js', new Date());
 
-gtag('config', 'G-SENY5K9EWR');
-gtag('event', ${process.env.EXTENSION ? "\"uses_extension\"" : "\"extension_less\""});
-`
+// gtag('config', 'G-SENY5K9EWR');
+// gtag('event', ${process.env.EXTENSION ? "\"uses_extension\"" : "\"extension_less\""});
+// `
 
-document.head.appendChild(googleAnalyticsScript)
+// document.head.appendChild(googleAnalyticsScript)
 
 if (process.env.EXTENSION) {
     const popAds = document.createElement("script")
